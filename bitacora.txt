@@ -13,3 +13,9 @@
                                      en master, la fusión sería recursiva
                                      si se añaden los pasos 22-25 con un
                                      commit. Si no, sería fast-forward.)
+26      add bitacora.txt, commit -m 'Paso 26'
+27      tag RespuestaPreguntaFusion
+28      git push (error)            (Tras intentar push, error porque no
+        git pull, git push           se tiene la rama actualizada. git pull
+        git push origin <tag>        y tras fusionar cambios recursivamente,
+                                     git push y git push origin RespuestaPreguntaFusion)
