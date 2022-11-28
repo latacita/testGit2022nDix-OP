@@ -33,3 +33,7 @@
         git pull, git push           se tiene la rama actualizada. git pull
         git push origin <tag>        y tras fusionar cambios recursivamente,
                                      git push y git push origin RespuestaPreguntaFusion)
+30      add bitacora.txt,
+        commit -m 'Paso 30'
+31      merge Historia001           (La fusión es recursiva con conflictos, tras
+                                     resolverlos, add bitacora.txt y merge --continue)
