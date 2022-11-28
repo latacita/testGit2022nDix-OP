@@ -6,3 +6,10 @@
 
  Paso   Acción                       Notas
 ====== ============================ ================================
+22      add bitacora.txt
+23      commit -m 'Paso 23'
+24      checkout master
+25                                  (Si ahora se fusionara Historia001
+                                     en master, la fusión sería recursiva
+                                     si se añaden los pasos 22-25 con un
+                                     commit. Si no, sería fast-forward.)
